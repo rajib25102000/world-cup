@@ -1,0 +1,110 @@
+/* google font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;0,700;1,500&display=swap');
+
+/* common style */
+body{
+      font-family: 'Poppins', sans-serif;
+}
+.header{
+    display: flex;
+    background-color: #1E1E1E;;
+    border-radius: 15px;
+    width: 1150px;
+    margin: 0 auto;
+}
+.banner{
+      width: 50%;
+      color:white;
+      padding: 40px;
+    
+}
+.banner img{
+      width: 100%;;
+}
+button{
+      background-color: red;
+      border-radius:5px;
+      width: 184px;
+      height: 56px;
+      border: none;
+     
+}
+button a{
+      color:white;
+      text-decoration: none;
+      font-size: 20px;
+      font-weight: 400;
+}
+.fa-angle-right{
+color:  #FFFFFF;
+margin-left: 10px;
+}
+/* main section */
+
+
+main{
+      margin-top: 150px;
+}
+section{
+      display: flex;
+      
+}
+.Match-Info{
+      display: grid;
+      grid-template-columns: repeat(1,1fr);
+      background-color: #1E1E1E;
+      width: 312px;
+      height: 312px;
+      border-radius: 10px;
+     margin-right: 25px;
+     
+}
+.match-dittelss {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-column-gap: 15px;
+      width: 1000px;
+}
+.button-info{
+      padding: 50px;
+    
+      
+}
+.blog{
+       background: #FFFFFF;
+      border-radius: 10px;
+      margin-bottom: 30px;
+      border: none;
+   
+     
+}
+.blog a{
+      color: black;
+}
+.Match-Schedule{
+  display: flex;
+  justify-content:space-between;
+}
+footer{
+      height: 444px;
+      background-color: #161616;
+      margin-top:150px ;
+     
+   
+}
+.goal{
+      color: white;
+     text-align: center;
+     padding:70px;
+}
+.contact{
+      display: flex;
+     justify-content: center;
+     color: white;
+    
+     
+}
+.contact-info{
+     margin: 0 20px;
+     padding: 20px;
+}
